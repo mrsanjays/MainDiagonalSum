@@ -12,7 +12,7 @@ class Solution:
     def MainDiagonalSum(x):
         row,col=x[0],x[1]
         array,j=[],2
-        for i in range(col):
+        for _ in range(col):
             array.append(x[j:(j+row)])
             j+=row
         Sum,i=0,0
